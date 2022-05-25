@@ -1,0 +1,193 @@
+.menu
+{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(16, 85, 79);
+    top: 0;
+    left: 0;
+    box-shadow: black 3px -2px 4px 3px;
+}
+.elements
+{
+    
+    position: absolute;
+    width: 98%;
+    left: 1%;
+    display: flex;
+    top: 8%;
+    height: 30px;
+}
+.logo
+{
+    width: 93%;
+    color: white;
+    display: flex;
+  align-self: center;
+  font-size: 120%;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.icone
+{
+  width: 3.5%; 
+  display: flex;
+  align-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120%;
+  color: white;
+}
+.elements2
+{
+    
+    position: absolute;
+    width: 98%;
+    left: 1%;
+    display: flex;
+    bottom: 0;
+    height: 30px;
+    
+}
+.camera
+{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    color: white;
+    opacity: 0.5;
+}
+.disc
+{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+    
+}
+.statut
+{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    color: white;
+    opacity: 0.5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    
+}
+.appel
+{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    opacity: 0.5;
+   
+}
+.discussions
+{
+   
+    position: relative;
+    width: 50%;
+    height: 500px;
+    top: 77px;
+}
+.discus1
+{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding-top: 5px;
+    display: flex;
+    
+    
+   
+    
+}
+.lepetit img
+{
+    width: 90%;
+    border-radius: 50%;
+}
+.lepetit
+{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+    
+}
+.nom
+{
+  position: absolute;
+  left: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  top: 5px;
+}
+.mess
+{
+    position: absolute;
+    left: 9%; 
+    bottom: 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 90%;
+    color: rgb(68, 66, 66);
+}
+.temps
+{
+  position: absolute;
+  right: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  top: 5px;
+  font-size: 90%;
+  color:rgb(69, 177, 74);
+}
+.temp
+{
+  position: absolute;
+  right: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  top: 5px;
+  font-size: 90%;
+  color:rgb(68, 66, 66);
+}
+.new
+{
+    position: absolute;
+    right: 0; 
+    bottom: 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 90%;
+    color: white;
+    width:17px;
+    height: 17px;
+    background-color: rgb(69, 177, 74);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add
+{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(69, 177, 74); 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    right: 52%;
+}
